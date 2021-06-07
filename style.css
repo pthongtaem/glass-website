@@ -63,11 +63,13 @@ main {
   background: white;
   max-width: 1200px;
   background: linear-gradient(257.17deg, rgba(255, 255, 255, 0.14) -0.65%, rgba(255, 255, 255, 0.06) 51.45%, rgba(255, 255, 255, 0.13) 101.41%);
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur( 80px );
   border-radius: 77px;
   z-index: 2;
   display: flex;
   margin: 40px 0;
+  border: 3px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .detail {
