@@ -12,11 +12,12 @@ main {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  padding: 0 50px;
 }
 
 .nav {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -60,19 +61,52 @@ main {
 
 .glass {
   background: white;
-  max-width: 960px;
+  max-width: 1200px;
   background: linear-gradient(257.17deg, rgba(255, 255, 255, 0.14) -0.65%, rgba(255, 255, 255, 0.06) 51.45%, rgba(255, 255, 255, 0.13) 101.41%);
   backdrop-filter: blur(100px);
   border-radius: 77px;
   z-index: 2;
   display: flex;
-  flex: 1;
   margin: 40px 0;
 }
 
 .detail {
   flex: 2;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.detail h1 {
+  font-weight:  bold;
+  font-size: 100px;
+  line-height: 90px;
+}
+
+.detail p {
+  font-size: 22px;
+}
+
+.button2 {
+  background: linear-gradient(91.18deg, #1DECF1 2.61%, #0E1FB8 54.92%, #5901AE 105.09%);
+  color: #ffffff;
+  padding: 8px 8px 8px 20px;
+  border-radius: 20px;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button2 div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button2 img {
+  width: 25px;
 }
 
 .product {
@@ -82,7 +116,7 @@ main {
 
 .product img {
   width: 100%;
-  height: 100%;
+  object-fit: contain;
 }
 
 .background {
